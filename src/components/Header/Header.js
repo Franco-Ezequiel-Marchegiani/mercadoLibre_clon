@@ -30,11 +30,13 @@ function Header() {
             <spna>Capital Federal</spna>
         </a>
         <div>
-            <ul>
-                <li>123</li>
-                <li>123</li>
-                <li>123</li>
-                <li>1234</li>
+            <ul className='subNavBarLinksContainer'>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Historial</a></li>
+                <li><a href="#">Supermercado</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
             </ul>
         </div>
         <div>

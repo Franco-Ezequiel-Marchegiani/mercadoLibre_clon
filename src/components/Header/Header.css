@@ -11,8 +11,13 @@
     .navBarDeskTop{
         display: initial;
     }
+    /* 
+    Descomentar cuando haga cambiado el tamaño de la imagen en Photoshop a 23px
     .headerEnvio::before{
         content: url("../../Images/iconLocation.png");
-        width: 50px;
+    } */
+    .subNavBarLinksContainer{
+        display: flex;
+        list-style: none;
     }
 }
