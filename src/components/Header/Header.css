@@ -9,7 +9,8 @@
 }
 @media only screen and (min-width: 992px){
     .navBarDeskTop{
-        display: initial;
+        display: flex;
+        justify-content: space-around;
     }
     /* 
     Descomentar cuando haga cambiado el tamaño de la imagen en Photoshop a 23px
