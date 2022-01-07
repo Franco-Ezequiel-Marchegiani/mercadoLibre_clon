@@ -24,12 +24,25 @@ function Header() {
         </Container>
     </Navbar>
     <div className='navBarDeskTop'>
-        <ul>
-            <li>123</li>
-            <li>123</li>
-            <li>123</li>
-            <li>1234</li>
-        </ul>
+        <a href="#" className='headerEnvio'>
+        {/* Añadir ícono con :before */}
+            <spna>Enviar a</spna>
+            <spna>Capital Federal</spna>
+        </a>
+        <div>
+            <ul>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+                <li>1234</li>
+            </ul>
+        </div>
+        <div>
+            <a href="#">Creá tu cuenta</a>
+            <a href="#">Ingresá</a>
+            <a href="#"> Mis compras</a>
+            <i className="fas fa-shopping-cart"></i>
+        </div>
     </div>
       </header>
   );

@@ -11,4 +11,8 @@
     .navBarDeskTop{
         display: initial;
     }
+    .headerEnvio::before{
+        content: url("../../Images/iconLocation.png");
+        width: 50px;
+    }
 }
